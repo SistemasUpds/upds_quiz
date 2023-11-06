@@ -10,6 +10,7 @@ class QuizScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     QuestionController _controller = Get.put(QuestionController());
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 0, 51, 153),
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,

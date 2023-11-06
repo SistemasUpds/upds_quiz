@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:upds_quiz/constants.dart';
 import 'package:upds_quiz/screens/quiz/quiz_screen.dart';
@@ -10,9 +9,9 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 0, 51, 153),
       body: Stack(
         children: [
-          //SvgPicture.asset("assets/icons/bg.svg", fit: BoxFit.fill),
           SafeArea(
               child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
